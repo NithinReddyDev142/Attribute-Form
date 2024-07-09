@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut"   href="../Assetshtml/imageshtml/birla-img" type="image/x-icon">
+    
+    <title>Document</title>
+    <style>
+       [id]{
+        border:2px solid red;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 10px;
+      
+       }
+       .task{
+        background-color: wheat;
+        background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20201026/pngtree-d-illustration-mock-up-scene-geometry-shape-platform-forms-for-product-image_437729.jpg);
+       }
+       p{
+        display:inline-block;
+        position: relative;
+        left: -38px;
+       }
+       [fa fa-envelope-o]{
+        position: relative;
+        padding:;
+       }
+
+    
+    </style>
+</head>
+<body>
+    <form>
+    <div class="task">
+    <fieldset>
+       <CENTER><legend>
+            <strong>REGISTRATION FORM</strong>
+        </legend>
+       </CENTER>
+
+    <BR>
+    <center>
+    
+    <div>
+        <lable for="Fname">First name:</lable>
+        <input  readonly value="Nithinreddy"  type="text" id="Fname" name="Fname">
+    </div>
+    <br>
+    <div>
+        <lable for="snd">Last name:</lable>
+        <input required type="text" id="snd" name="snd" placeholder="last name">
+    </div>
+    <br>
+    <div>
+        <label for="email">Email Address:</label>
+        <input required type="email" id="email" name="email" placeholder="Email Address">
+   <div>
+        <br>
+    <div>
+         <label for="pwd">Password:</label>
+        <input type="password" id="pwd" name="pwd" pattern=[0:9]{6}>
+    </div>
+    <br>
+    <div>
+        <label for="list1">choose your country</label>
+        <input list="lists" name="list1" id="list1">
+        <datalist id="lists">
+            <option value="india">
+            <option value="Aus">
+            <option value="Afg">
+        </datalist>
+    </div>
+    <div>
+        <p><B>CONTACT US:</B></p>
+        <!-- <i class="fa fa-envelope-o"></i>
+        <i class="fa fa-envelope-o" style="font-size:24px"></i>
+        <i class="fa fa-envelope-o" style="font-size:36px"></i> -->
+        <i class="fa fa-envelope-o" style="font-size:48px;color:black"></i>
+    </div>
+    <br>
+    <div>
+        <input type="submit"
+    </div>
+    </center>
+    </fieldset>
+    </div>
+    </form>
+</body>
+</html>
